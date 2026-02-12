@@ -4,7 +4,6 @@ import Swal from "sweetalert2";
 import { BsVolumeUpFill, BsVolumeMuteFill } from "react-icons/bs";
 
 import MouseStealing from './MouseStealer.jsx';
-import lovesvg from "./assets/All You Need Is Love SVG Cut File.svg";
 import Lovegif from "./assets/GifData/main_temp.gif";
 import heartGif from "./assets/GifData/happy.gif";
 import sadGif from "./assets/GifData/sad.gif";
@@ -333,11 +332,6 @@ export default function Page() {
           </>
         ) : (
           <>
-            <img
-              src={lovesvg}
-              className="fixed animate-pulse top-10 md:left-15 left-6 md:w-40 w-28"
-              alt="Love SVG"
-            />
             <img
               ref={gifRef}
               className="h-[230px] rounded-lg"
